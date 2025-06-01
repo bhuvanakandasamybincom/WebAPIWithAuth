@@ -1,6 +1,15 @@
-@WebAPI_HostAddress = http://localhost:5062
-
+@WebAPI_HostAddress = https://localhost:44362
+@token=dfdfnj
 GET {{WebAPI_HostAddress}}/weatherforecast/
 Accept: application/json
-
+Authorization: Bearer {{token}}
 ###
+
+POST {{WebAPI_HostAddress}}/registeration
+Accept: application/json
+{
+  "Username": "User123",
+  "Name": "John Doe",
+  "Email": "user123@example.com",
+  "Password": "StrongPass@123"
+}
