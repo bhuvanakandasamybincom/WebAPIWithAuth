@@ -4,7 +4,6 @@ using BoardCasterWebAPI.DbContexts;
 using BoardCasterWebAPI.Interfaces;
 using BoardCasterWebAPI.Middleware;
 using BoardCasterWebAPI.Services;
-using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;

@@ -40,10 +40,4 @@ namespace WebAPI.Entities
         public string Name { get; set; }
 
     }
-
-    public class RegisterUser
-    {
-        public string UserName { get; set; }
-        public string Email { get; set; }
-    }
 }
